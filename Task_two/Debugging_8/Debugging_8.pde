@@ -1,6 +1,4 @@
 boolean jobsDone = true;
-int value = 0;
-int threshold = 0;
 
 void setup()
 {
@@ -19,6 +17,7 @@ boolean isValueGreaterThanThreshold(int value, int threshold)
     {
         return true;                
     }
+    return false;
 }
 
 boolean isJobDone()
