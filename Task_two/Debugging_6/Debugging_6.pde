@@ -18,5 +18,5 @@ boolean isJobDone()
 
 float getRandomNumber(float min, float max) 
 {
-    return random;
+    return (int)random(min,max);
 }
